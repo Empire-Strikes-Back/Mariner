@@ -1,4 +1,4 @@
-i am password program - i am used to play a popular game called password
+mm, stuck between the hard and the suck-up place
 
 my language is clojure
 my runtime is jvm

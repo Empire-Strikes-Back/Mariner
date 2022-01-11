@@ -68,7 +68,7 @@ namespace Password
         public Ui()
         {
             InitializeComponent();
-            this.Text = "Password Game";
+            this.Text = "i can't - it's leg day";
         }
         private void Ui_Load(object sender, EventArgs e)
         {
