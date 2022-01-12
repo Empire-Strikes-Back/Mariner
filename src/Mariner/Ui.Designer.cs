@@ -1,4 +1,4 @@
-﻿namespace Password
+﻿namespace Mariner
 {
     partial class Ui
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ui));
+            // System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ui));
             this.lblStatus = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.cbBlitz = new System.Windows.Forms.CheckBox();
@@ -146,9 +146,10 @@
             this.btnRandom.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.btnRandom.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.btnRandom.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnRandom.Image = ((System.Drawing.Image)(resources.GetObject("btnRandom.Image")));
+            // this.btnRandom.Image = ((System.Drawing.Image)(resources.GetObject("btnRandom.Image")));
             this.btnRandom.Location = new System.Drawing.Point(303, 107);
             this.btnRandom.Name = "btnRandom";
+            this.btnRandom.Text = "random";
             this.btnRandom.Size = new System.Drawing.Size(60, 60);
             this.btnRandom.TabIndex = 11;
             this.btnRandom.UseVisualStyleBackColor = false;
@@ -162,9 +163,10 @@
             this.cbTech.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbTech.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbTech.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbTech.Image = ((System.Drawing.Image)(resources.GetObject("cbTech.Image")));
+            // this.cbTech.Image = ((System.Drawing.Image)(resources.GetObject("cbTech.Image")));
             this.cbTech.Location = new System.Drawing.Point(350, 207);
             this.cbTech.Name = "cbTech";
+            this.cbTech.Text = "tech";
             this.cbTech.Size = new System.Drawing.Size(60, 60);
             this.cbTech.TabIndex = 6;
             this.cbTech.UseVisualStyleBackColor = false;
@@ -178,9 +180,10 @@
             this.cbHero.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbHero.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbHero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbHero.Image = ((System.Drawing.Image)(resources.GetObject("cbHero.Image")));
+            // this.cbHero.Image = ((System.Drawing.Image)(resources.GetObject("cbHero.Image")));
             this.cbHero.Location = new System.Drawing.Point(174, 174);
             this.cbHero.Name = "cbHero";
+            this.cbHero.Text = "hero";
             this.cbHero.Size = new System.Drawing.Size(60, 60);
             this.cbHero.TabIndex = 8;
             this.cbHero.UseVisualStyleBackColor = false;
@@ -194,9 +197,10 @@
             this.cbVillain.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbVillain.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbVillain.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbVillain.Image = ((System.Drawing.Image)(resources.GetObject("cbVillain.Image")));
+            // this.cbVillain.Image = ((System.Drawing.Image)(resources.GetObject("cbVillain.Image")));
             this.cbVillain.Location = new System.Drawing.Point(255, 207);
             this.cbVillain.Name = "cbVillain";
+            this.cbVillain.Text = "villain";
             this.cbVillain.Size = new System.Drawing.Size(60, 60);
             this.cbVillain.TabIndex = 7;
             this.cbVillain.UseVisualStyleBackColor = false;
@@ -210,9 +214,10 @@
             this.cbMovies.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbMovies.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbMovies.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbMovies.Image = ((System.Drawing.Image)(resources.GetObject("cbMovies.Image")));
+            // this.cbMovies.Image = ((System.Drawing.Image)(resources.GetObject("cbMovies.Image")));
             this.cbMovies.Location = new System.Drawing.Point(106, 107);
             this.cbMovies.Name = "cbMovies";
+            this.cbMovies.Text = "movies";
             this.cbMovies.Size = new System.Drawing.Size(60, 60);
             this.cbMovies.TabIndex = 9;
             this.cbMovies.UseVisualStyleBackColor = false;
@@ -226,9 +231,10 @@
             this.cbHard.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbHard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbHard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbHard.Image = ((System.Drawing.Image)(resources.GetObject("cbHard.Image")));
+            // this.cbHard.Image = ((System.Drawing.Image)(resources.GetObject("cbHard.Image")));
             this.cbHard.Location = new System.Drawing.Point(174, 41);
             this.cbHard.Name = "cbHard";
+            this.cbHard.Text = "hard";
             this.cbHard.Size = new System.Drawing.Size(60, 60);
             this.cbHard.TabIndex = 10;
             this.cbHard.UseVisualStyleBackColor = false;
@@ -242,9 +248,10 @@
             this.cbStarWars.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbStarWars.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbStarWars.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbStarWars.Image = ((System.Drawing.Image)(resources.GetObject("cbStarWars.Image")));
+            // this.cbStarWars.Image = ((System.Drawing.Image)(resources.GetObject("cbStarWars.Image")));
             this.cbStarWars.Location = new System.Drawing.Point(425, 174);
             this.cbStarWars.Name = "cbStarWars";
+            this.cbStarWars.Text = "Star Wars";
             this.cbStarWars.Size = new System.Drawing.Size(60, 60);
             this.cbStarWars.TabIndex = 5;
             this.cbStarWars.UseVisualStyleBackColor = false;
@@ -258,9 +265,10 @@
             this.cbMiddleEarth.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbMiddleEarth.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbMiddleEarth.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbMiddleEarth.Image = ((System.Drawing.Image)(resources.GetObject("cbMiddleEarth.Image")));
+            // this.cbMiddleEarth.Image = ((System.Drawing.Image)(resources.GetObject("cbMiddleEarth.Image")));
             this.cbMiddleEarth.Location = new System.Drawing.Point(501, 107);
             this.cbMiddleEarth.Name = "cbMiddleEarth";
+            this.cbMiddleEarth.Text = "Middle-earth";
             this.cbMiddleEarth.Size = new System.Drawing.Size(60, 60);
             this.cbMiddleEarth.TabIndex = 4;
             this.cbMiddleEarth.UseVisualStyleBackColor = false;
@@ -274,9 +282,10 @@
             this.cbWrite.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbWrite.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbWrite.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbWrite.Image = ((System.Drawing.Image)(resources.GetObject("cbWrite.Image")));
+            // this.cbWrite.Image = ((System.Drawing.Image)(resources.GetObject("cbWrite.Image")));
             this.cbWrite.Location = new System.Drawing.Point(425, 44);
             this.cbWrite.Name = "cbWrite";
+            this.cbWrite.Text = "write";
             this.cbWrite.Size = new System.Drawing.Size(60, 60);
             this.cbWrite.TabIndex = 3;
             this.cbWrite.UseVisualStyleBackColor = false;
@@ -290,9 +299,10 @@
             this.cbSport.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.cbSport.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke;
             this.cbSport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.WhiteSmoke;
-            this.cbSport.Image = ((System.Drawing.Image)(resources.GetObject("cbSport.Image")));
+            // this.cbSport.Image = ((System.Drawing.Image)(resources.GetObject("cbSport.Image")));
             this.cbSport.Location = new System.Drawing.Point(350, 12);
             this.cbSport.Name = "cbSport";
+            this.cbSport.Text = "sport";
             this.cbSport.Size = new System.Drawing.Size(60, 60);
             this.cbSport.TabIndex = 2;
             this.cbSport.UseVisualStyleBackColor = false;
@@ -311,7 +321,7 @@
             this.cbBasic.Name = "cbBasic";
             this.cbBasic.Size = new System.Drawing.Size(60, 60);
             this.cbBasic.TabIndex = 1;
-            this.cbBasic.Text = "BASIC";
+            this.cbBasic.Text = "basic";
             this.cbBasic.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cbBasic.UseVisualStyleBackColor = false;
             this.cbBasic.Click += new System.EventHandler(this.cbBasic_Click);
@@ -415,7 +425,7 @@
             this.lblHint.Size = new System.Drawing.Size(193, 23);
             this.lblHint.TabIndex = 28;
             this.lblHint.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
+            // t
             // Ui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -432,7 +442,7 @@
             this.Controls.Add(this.btnEndRound);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblStatus);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            // this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Ui";
             this.Text = "Ui";
             this.Load += new System.EventHandler(this.Ui_Load);

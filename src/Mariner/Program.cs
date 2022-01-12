@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Password
+namespace Mariner
 {
     static class Program
     {
@@ -14,6 +14,7 @@ namespace Password
         [STAThread]
         static void Main()
         {
+            Console.WriteLine("i'm good at getting demoted");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Ui());

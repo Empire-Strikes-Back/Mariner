@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
+using System.Reflection;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -11,8 +12,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections.Concurrent;
 using System.Threading;
+using System.Resources;
 
-namespace Password
+namespace Mariner
 {
     
     public partial class Ui : Form
@@ -75,52 +77,52 @@ namespace Password
             #region fillingwithwords
             basic = new List<string>();
             basicUsed = new List<string>();
-            basic.FillWithWords(@"words/basic.txt");
+            basic.FillWithWords("basic.txt");
             basic.Shuffle();
 
             hard = new List<string>();
             hardUsed = new List<string>();
-            hard.FillWithWords(@"words/hard.txt");
+            hard.FillWithWords("hard.txt");
             hard.Shuffle();
 
             sport = new List<string>();
             sportUsed = new List<string>();
-            sport.FillWithWords(@"words/sport.txt");
+            sport.FillWithWords("sport.txt");
             sport.Shuffle();
 
             middleearth = new List<string>();
             middleearthUsed = new List<string>();
-            middleearth.FillWithWords(@"words/middleearth.txt");
+            middleearth.FillWithWords("middleearth.txt");
             middleearth.Shuffle();
 
             starwars = new List<string>();
             starwarsUsed = new List<string>();
-            starwars.FillWithWords(@"words/starwars.txt");
+            starwars.FillWithWords("starwars.txt");
             starwars.Shuffle();
 
             movies = new List<string>();
             moviesUsed = new List<string>();
-            movies.FillWithWords(@"words/movies.txt");
+            movies.FillWithWords("movies.txt");
             movies.Shuffle();
 
             hero = new List<string>();
             heroUsed = new List<string>();
-            hero.FillWithWords(@"words/hero.txt");
+            hero.FillWithWords("hero.txt");
             hero.Shuffle();
 
             tech = new List<string>();
             techUsed = new List<string>();
-            tech.FillWithWords(@"words/tech.txt");
+            tech.FillWithWords("tech.txt");
             tech.Shuffle();
 
             write = new List<string>();
             writeUsed = new List<string>();
-            write.FillWithWords(@"words/write.txt");
+            write.FillWithWords("write.txt");
             write.Shuffle();
 
             villain = new List<string>();
             villainUsed = new List<string>();
-            villain.FillWithWords(@"words/villain.txt");
+            villain.FillWithWords("villain.txt");
             villain.Shuffle();
             #endregion
             
@@ -1448,7 +1450,9 @@ namespace Password
 
             try
             {
-                StreamReader sr = new StreamReader(path);
+                var stream = System.Reflection.Assembly.GetExecutingAssembly().GetManifestResourceStream(path);
+                StreamReader sr = new StreamReader(stream);
+                // ResourceReader sr = new ResourceReader(path);
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
